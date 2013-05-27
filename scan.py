@@ -1,26 +1,45 @@
 import requests
-import json
-import time
-import datetime
+from bs4 import BeautifulSoup
 
-all_the_text = open('big-xml-Athens.xml').read()
-project = 'nelo2-test-highlight'
-host = '10.34.130.31'
-port = '9200'
-indices = ['2013-05-20', '2013-05-21', '2013-05-22']
-for i in range(0, 1000):
-	for index in indices:
-		url = 'http://' + host + ':' + port + '/nelo2-log-' + index + '/' + project + '?routing=' + project
-		log = {
-			"projectName" : project,
-			"projectVersion" : "1.0.0",
-			"host" : "127.0.0.1",
-			"logType" : "insert",
-			"logSource" : "CrashDump",
-			"body" : all_the_text,
-			"errorCode" : "ServerChangeLogBO",
-			"logTime" : int(datetime.datetime.strptime(index, '%Y-%m-%d').strftime("%s"))*1000,
-			"logLevel" : "INFO"
-			}
-		r = requests.post(url, data=json.dumps(log))
-		print r.text
+def findProxies():
+	servers = ["http://51dai.li/http_fast.html"]
+	proxies = []
+	for server in servers:
+		r = requests.get(server)
+		soup = BeautifulSoup(r.text)
+		#print soup.prettify()
+		table = soup.table
+		trs = table.find_all('tr', recursive=False)
+		for tr in trs[1:]:
+			#print tr
+			tds = tr.find_all('td', recursive=False)
+			host = tds[1].string
+			#print host
+			port = tds[2].string
+			#print port
+			dict1 = {"http": "http://" + host + ":" + port}
+			proxies.append(dict1)
+	#print proxies	
+	return proxies
+			
+
+def verifyProxies():
+	proxies = findProxies()
+	goodProxies = []
+	for proxy in proxies:
+		print "trying:" + proxy["http"]
+		try:
+			r = requests.get("http://www.baidu.com", proxies=proxy, timeout=10)
+			print r.status_code
+			if r.status_code == 200:
+				print "find one good proxy:" + proxy["http"]
+				goodProxies.append(proxy)
+		except:
+			print "bad proxy:" + proxy["http"]
+			pass
+		
+	print goodProxies
+	return goodProxies
+
+			
+verifyProxies()		
