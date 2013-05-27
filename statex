@@ -1,0 +1,5 @@
+#!/bin/bash
+curl -u admin:vmfhwprxmspffh2 -XGET '10.96.250.211:10300/_cluster/state?pretty&filter_indices&filter_blocks&filter_metadata' | node esState.js
+curl -u admin:vmfhwprxmspffh2 -XGET '10.96.250.212:10300/_cluster/state?pretty&filter_indices&filter_blocks&filter_metadata' | node esState.js
+curl -u admin:vmfhwprxmspffh2 -XGET '10.96.250.213:10300/_cluster/state?pretty&filter_indices&filter_blocks&filter_metadata' | node esState.js
+

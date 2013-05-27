@@ -1,0 +1,11 @@
+#!/bin/bash
+#index="nelo2-log-2013-02-05"
+if(($#<1))
+then
+	echo 'please input index name'
+	exit
+fi
+index=$1
+echo $index
+curl -u admin:vmfhwprxmspffh2 -XGET '10.98.213.76:10200/_cluster/state?pretty&filter_indices&filter_blocks' | node esState.js --index $index --types --mappings 
+

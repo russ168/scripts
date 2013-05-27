@@ -1,0 +1,11 @@
+#!/bin/bash
+CMD1='curl -u admin:vmfhwprxmspffh2 -XGET 10.96.250.211:10200/_cluster/health?level=shards&pretty=true'
+CMD2='curl -u admin:vmfhwprxmspffh2 -XGET 10.96.250.212:10200/_cluster/health?level=shards&pretty=true'
+CMD3='curl -u admin:vmfhwprxmspffh2 -XGET 10.96.250.213:10200/_cluster/health?level=shards&pretty=true'
+echo $CMD1
+$CMD1
+echo $CMD2
+$CMD2
+echo $CMD3
+$CMD3
+

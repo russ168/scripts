@@ -1,0 +1,81 @@
+2013-03-15 15:33:25,742 INFO RSyncBackup TestRun detected - no file operations will be performed.
+2013-03-15 15:33:25,742 WARNING RSyncBackup Exception occured reading the last run file /home/jackie/scripts/backup.lrf.  Error: [Errno 2] No such file or directory: '/home/jackie/scripts/backup.lrf'
+2013-03-15 15:33:25,746 INFO RSyncBackup Starting test run of backup.
+2013-03-15 15:33:25,746 DEBUG RSyncBackup Running command: /usr/bin/rsync --archive --delete '/home/jackie/python/scripts/indices' '/home/jackie/python/scripts/indices2'
+2013-03-15 15:33:25,746 WARNING RSyncBackup TestRun - would execute command: /usr/bin/rsync --archive --delete '/home/jackie/python/scripts/indices' '/home/jackie/python/scripts/indices2'
+2013-03-15 15:33:25,746 DEBUG RSyncBackup TestRun - not writing out last run file.
+2013-03-15 15:35:22,439 INFO RSyncBackup TestRun detected - no file operations will be performed.
+2013-03-15 15:35:22,442 INFO RSyncBackup Starting test run of backup.
+2013-03-15 15:35:22,442 DEBUG RSyncBackup Running command: /usr/bin/rsync --archive --delete --exclude="/home/jackie/python/scripts/indices/index2/shard1" '/home/jackie/python/scripts/indices' '/home/jackie/python/scripts/indices2'
+2013-03-15 15:35:22,442 WARNING RSyncBackup TestRun - would execute command: /usr/bin/rsync --archive --delete --exclude="/home/jackie/python/scripts/indices/index2/shard1" '/home/jackie/python/scripts/indices' '/home/jackie/python/scripts/indices2'
+2013-03-15 15:35:22,442 DEBUG RSyncBackup TestRun - not writing out last run file.
+2013-03-15 15:36:23,229 INFO RSyncBackup TestRun detected - no file operations will be performed.
+2013-03-15 15:36:23,233 INFO RSyncBackup Starting test run of backup.
+2013-03-15 15:36:23,233 DEBUG RSyncBackup Running command: /usr/bin/rsync --archive --delete --exclude="/home/jackie/python/scripts/indices/index2/shard1" '/home/jackie/python/scripts/indices' '/home/jackie/python/scripts/indices2'
+2013-03-15 15:36:23,233 WARNING RSyncBackup TestRun - would execute command: /usr/bin/rsync --archive --delete --exclude="/home/jackie/python/scripts/indices/index2/shard1" '/home/jackie/python/scripts/indices' '/home/jackie/python/scripts/indices2'
+2013-03-15 15:36:23,233 DEBUG RSyncBackup TestRun - not writing out last run file.
+2013-03-15 15:37:21,222 INFO RSyncBackup TestRun detected - no file operations will be performed.
+2013-03-15 15:37:21,225 INFO RSyncBackup Starting test run of backup.
+2013-03-15 15:37:21,225 DEBUG RSyncBackup Running command: /usr/bin/rsync --archive --delete --exclude="/home/jackie/python/scripts/indices/index2/shard1" '/home/jackie/python/scripts/indices' '/home/jackie/python/scripts/indices2'
+2013-03-15 15:37:21,225 WARNING RSyncBackup TestRun - would execute command: /usr/bin/rsync --archive --delete --exclude="/home/jackie/python/scripts/indices/index2/shard1" '/home/jackie/python/scripts/indices' '/home/jackie/python/scripts/indices2'
+2013-03-15 15:37:21,225 DEBUG RSyncBackup TestRun - not writing out last run file.
+2013-03-15 15:51:47,868 INFO RSyncBackup TestRun detected - no file operations will be performed.
+2013-03-15 15:51:47,872 INFO RSyncBackup Starting test run of backup.
+2013-03-15 15:51:47,872 DEBUG RSyncBackup Running command: /usr/bin/rsync --archive --delete --exclude="/home/jackie/python/scripts/indices/index2/shard1" '/home/jackie/python/scripts/indices' '/home/jackie/python/scripts/indices2'
+2013-03-15 15:51:47,872 WARNING RSyncBackup TestRun - would execute command: /usr/bin/rsync --archive --delete --exclude="/home/jackie/python/scripts/indices/index2/shard1" '/home/jackie/python/scripts/indices' '/home/jackie/python/scripts/indices2'
+2013-03-15 15:51:47,872 DEBUG RSyncBackup TestRun - not writing out last run file.
+2013-03-15 15:54:24,212 INFO RSyncBackup TestRun detected - no file operations will be performed.
+2013-03-15 15:54:24,215 INFO RSyncBackup Starting test run of backup.
+2013-03-15 15:54:24,215 DEBUG RSyncBackup Running command: /usr/bin/rsync --archive --delete --exclude="/home/jackie/python/scripts/indices/index2/shard1" '/home/jackie/python/scripts/indices' '/home/jackie/python/scripts/indices2'
+2013-03-15 15:54:24,215 WARNING RSyncBackup TestRun - would execute command: /usr/bin/rsync --archive --delete --exclude="/home/jackie/python/scripts/indices/index2/shard1" '/home/jackie/python/scripts/indices' '/home/jackie/python/scripts/indices2'
+2013-03-15 15:54:24,215 DEBUG RSyncBackup TestRun - not writing out last run file.
+2013-03-15 15:55:02,832 INFO RSyncBackup TestRun detected - no file operations will be performed.
+2013-03-15 15:55:02,835 INFO RSyncBackup Starting test run of backup.
+2013-03-15 15:55:02,835 DEBUG RSyncBackup Running command: /usr/bin/rsync --archive --delete --exclude="/home/jackie/python/scripts/indices/index2/shard1" '/home/jackie/python/scripts/indices' '/home/jackie/python/scripts/indices2'
+2013-03-15 15:55:02,835 WARNING RSyncBackup TestRun - would execute command: /usr/bin/rsync --archive --delete --exclude="/home/jackie/python/scripts/indices/index2/shard1" '/home/jackie/python/scripts/indices' '/home/jackie/python/scripts/indices2'
+2013-03-15 15:55:02,835 DEBUG RSyncBackup TestRun - not writing out last run file.
+2013-03-15 15:56:04,079 INFO RSyncBackup Starting backup.
+2013-03-15 15:56:04,079 DEBUG RSyncBackup Running command: /usr/bin/rsync --archive --delete --exclude="/home/jackie/python/scripts/indices/index2/shard1" '/home/jackie/python/scripts/indices' '/home/jackie/python/scripts/indices2'
+2013-03-15 15:56:04,172 INFO RSyncBackup Rsync backup successful.
+2013-03-15 15:56:04,172 DEBUG RSyncBackup Rsync output: 
+2013-03-15 15:56:04,172 DEBUG RSyncBackup Time backup was started: Fri Mar 15 07:56:04 2013
+2013-03-15 15:56:04,173 INFO RSyncBackup Last Run File updated succesfully
+2013-03-15 15:59:19,348 INFO RSyncBackup Starting backup.
+2013-03-15 15:59:19,348 DEBUG RSyncBackup Running command: /usr/bin/rsync --archive --delete --exclude="/home/jackie/python/scripts/indices/index2/shard1" '/home/jackie/python/scripts/indices/' '/home/jackie/python/scripts/indices2/'
+2013-03-15 15:59:19,397 INFO RSyncBackup Rsync backup successful.
+2013-03-15 15:59:19,397 DEBUG RSyncBackup Rsync output: 
+2013-03-15 15:59:19,397 DEBUG RSyncBackup Time backup was started: Fri Mar 15 07:59:19 2013
+2013-03-15 15:59:19,398 INFO RSyncBackup Last Run File updated succesfully
+2013-03-15 16:01:27,716 INFO RSyncBackup Starting backup.
+2013-03-15 16:01:27,716 DEBUG RSyncBackup Running command: /usr/bin/rsync --archive --delete --exclude="/home/jackie/python/scripts/indices/index2/shard1" '/home/jackie/python/scripts/indices/' '/home/jackie/python/scripts/indices2/'
+2013-03-15 16:01:27,983 INFO RSyncBackup Rsync backup successful.
+2013-03-15 16:01:27,983 DEBUG RSyncBackup Rsync output: 
+2013-03-15 16:01:27,984 DEBUG RSyncBackup Time backup was started: Fri Mar 15 08:01:27 2013
+2013-03-15 16:01:27,984 INFO RSyncBackup Last Run File updated succesfully
+2013-03-15 16:01:44,370 INFO RSyncBackup Starting backup.
+2013-03-15 16:01:44,370 DEBUG RSyncBackup Running command: /usr/bin/rsync --archive --delete --exclude="/home/jackie/python/scripts/indices/index2/shard1" '/home/jackie/python/scripts/indices/' '/home/jackie/python/scripts/indices2/'
+2013-03-15 16:01:44,419 INFO RSyncBackup Rsync backup successful.
+2013-03-15 16:01:44,419 DEBUG RSyncBackup Rsync output: 
+2013-03-15 16:01:44,419 DEBUG RSyncBackup Time backup was started: Fri Mar 15 08:01:44 2013
+2013-03-15 16:01:44,420 INFO RSyncBackup Last Run File updated succesfully
+2013-03-15 16:02:31,529 INFO RSyncBackup Starting backup.
+2013-03-15 16:02:31,529 DEBUG RSyncBackup Running command: /usr/bin/rsync --archive --delete --exclude="/home/jackie/python/scripts/indices/index2/shard1" '/home/jackie/python/scripts/indices/' '/home/jackie/python/scripts/indices2/'
+2013-03-15 16:02:31,578 INFO RSyncBackup Rsync backup successful.
+2013-03-15 16:02:31,578 DEBUG RSyncBackup Rsync output: 
+2013-03-15 16:02:31,578 DEBUG RSyncBackup Time backup was started: Fri Mar 15 08:02:31 2013
+2013-03-15 16:02:31,578 ERROR RSyncBackup Exception occured writing the last run file /var/state/backupLastRun.lrf.  Error: [Errno 2] No such file or directory: '/var/state/backupLastRun.lrf'
+2013-03-15 16:02:31,603 ERROR root Exception occured during backup: Error writing to last run file!
+2013-03-15 16:03:14,146 INFO RSyncBackup Starting backup.
+2013-03-15 16:03:14,148 DEBUG RSyncBackup Running command: /usr/bin/rsync --archive --delete --exclude="/home/jackie/python/scripts/indices/index2/shard1" '/home/jackie/python/scripts/indices/' '/home/jackie/python/scripts/indices2/'
+2013-03-15 16:03:14,196 INFO RSyncBackup Rsync backup successful.
+2013-03-15 16:03:14,196 DEBUG RSyncBackup Rsync output: 
+2013-03-15 16:03:14,196 DEBUG RSyncBackup Time backup was started: Fri Mar 15 08:03:14 2013
+2013-03-15 16:03:14,196 ERROR RSyncBackup Exception occured writing the last run file /var/state/backupLastRun.lrf.  Error: [Errno 2] No such file or directory: '/var/state/backupLastRun.lrf'
+2013-03-15 16:03:14,196 ERROR root Exception occured during backup: Error writing to last run file!
+2013-03-15 16:03:35,267 INFO RSyncBackup Starting backup.
+2013-03-15 16:03:35,269 DEBUG RSyncBackup Running command: /usr/bin/rsync --archive --delete --exclude="/home/jackie/python/scripts/indices/index2/shard1" '/home/jackie/python/scripts/indices/' '/home/jackie/python/scripts/indices2/'
+2013-03-15 16:03:35,317 INFO RSyncBackup Rsync backup successful.
+2013-03-15 16:03:35,317 DEBUG RSyncBackup Rsync output: 
+2013-03-15 16:03:35,318 DEBUG RSyncBackup Time backup was started: Fri Mar 15 08:03:35 2013
+2013-03-15 16:03:35,318 ERROR RSyncBackup Exception occured writing the last run file /var/state/backupLastRun.lrf.  Error: [Errno 2] No such file or directory: '/var/state/backupLastRun.lrf'
+2013-03-15 16:03:35,318 ERROR root Exception occured during backup: Error writing to last run file!
